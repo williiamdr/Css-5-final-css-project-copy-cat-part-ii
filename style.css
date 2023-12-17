@@ -1,0 +1,73 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  .top-link {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    text-decoration: underline;
+    color: #333;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    background-color: #fffcfc;
+    /* Additional navbar styles */
+    /* ... */
+  }
+  strong{
+    color: red;
+  }
+  .navbar-toggler-icon {
+    background-color: rgb(65, 63, 63); /* Set the toggler color to black */
+  }
+
+.globe{
+  display: inline-block;
+  align-items: right;
+}
+
+.navbar .nav-link {
+  color: black;
+}
+
+.list-unstyled{
+  font-style: none;
+}
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Align items horizontally */
+  }
+  
+  nav ul li {
+    text-align: left; /* Center text */
+    margin: 0 20px;
+    margin-top: 1em;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items vertically */
+  }
+  
+  nav ul li a i {
+    margin-bottom: 5px; /* Space between icon and text */
+  }
